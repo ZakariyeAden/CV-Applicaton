@@ -101,6 +101,10 @@ export default function Experience(props){
             value={experienceInfo.task}
           />
         </label>
+        <div>
+        <button type="submit">Save</button>
+          <span onClick={() => props.handleDelete("education", props.id)}>Delete</span>
+        </div>
       </form>
     </div>
   );
