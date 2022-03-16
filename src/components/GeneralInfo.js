@@ -27,6 +27,7 @@ export default function GeneralInformation(){
   const handleSubmit = (e) => {
     e.preventDefault();
     setEditMode((prevMode) => !prevMode);
+    console.log(editMode);
   };
 
   function handleChange(e){
@@ -72,7 +73,7 @@ export default function GeneralInformation(){
             <p>First Name:</p>
             <input
               value={personalInfo.firstName}
-              name="first name"
+              name="firstName"
               type="text"
               required={true}
               placeholder="First name"
@@ -83,7 +84,7 @@ export default function GeneralInformation(){
             <p>Last Name:</p>
             <input
               value={personalInfo.lastName}
-              name="last name"
+              name="lastName"
               type="text"
               required={true}
               placeholder="Last name"
