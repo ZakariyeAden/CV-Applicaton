@@ -4,7 +4,7 @@ export default function View(props){
   console.log(props);
   return(
     <div>
-      <span onClick={props.handleEdit}>Edit</span>
+      <span className="edit" onClick={props.handleEdit}>Edit</span>
     </div>
   );
 }

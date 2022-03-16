@@ -43,7 +43,7 @@ export default function GeneralInformation(){
   if(!editMode){
     return(
       <div>
-        <span onClick={handleSubmit}>Edit</span>
+        <span className="edit" onClick={handleSubmit}>Edit</span>
         <p>
           <span>First Name:</span>
           {personalInfo.firstName}

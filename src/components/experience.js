@@ -103,7 +103,8 @@ export default function Experience(props){
         </label>
         <div>
         <button type="submit">Save</button>
-          <span onClick={() => props.handleDelete("education", props.id)}>Delete</span>
+        <button onClick={() => props.handleDelete("experience", props.id)}>Delete</button>
+          {/* <span onClick={() => props.handleDelete("education", props.id)}>Delete</span> */}
         </div>
       </form>
     </div>

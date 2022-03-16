@@ -54,7 +54,7 @@ export default function App(){
         
       <h3>Experience</h3>
         {experience}
-        <button name="addExperience" onClick={handleAddClick}> Add Experience</button>
+        <button name="addExperience" onClick={handleAddClick}>Add Experience</button>
     </div>
   );
 }

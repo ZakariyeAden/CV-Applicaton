@@ -82,9 +82,9 @@ export default function Education(props){
         </div>
           <div>
             <button type="submit">Save</button>
-            <span onClick={() => props.handleDelete("education", props.id)}>
+            <button onClick={() => props.handleDelete("education", props.id)}>
               Delete
-            </span>
+            </button>
           </div>
       </form>
     </div>
